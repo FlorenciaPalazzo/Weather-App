@@ -4,12 +4,10 @@ import Form from "./Form";
 import Card from "./Card";
 
 export default function WeatherPanel() {
-  let urlWeather =
-    "https://api.openweathermap.org/data/2.5/weather?appid=a24da7c64bdfbff82a938dcd02063bb7&lang=es";
+  let urlWeather = `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.REACT_APP_URLKEY}&lang=es`;
   let urlCity = "&q=";
 
-  let urlForecast =
-    "https://api.openweathermap.org/data/2.5/forecast?appid=a24da7c64bdfbff82a938dcd02063bb7&lang=es";
+  let urlForecast = `https://api.openweathermap.org/data/2.5/forecast?appid=${process.env.REACT_APP_URLKEY}&lang=es`;
 
   const [weather, setWeather] = useState([]); //para el clima
   const [forecast, setForecast] = useState([]); // para la prediccion
