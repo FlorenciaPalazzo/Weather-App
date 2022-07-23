@@ -1,6 +1,6 @@
 
 # Weather-App
-Aplicación responsiva creada para encontrar el clima de cualquier ciudad utilizando Html,Css, Bootstrap, Sass y React, consumiendo los datos de la api (OpenWeatherMap).
+Aplicación responsiva creada para encontrar el clima de cualquier ciudad utilizando Html, Css, Bootstrap, Sass y React, consumiendo los datos de la api (OpenWeatherMap).
 Colocando el nombre de tu ciudad en la barra buscadora, la información se presenta en forma de carta, el detalle del clima actual y de las próximas horas.
 
 
